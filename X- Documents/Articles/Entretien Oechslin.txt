@@ -1,0 +1,36 @@
+Résumé de l'entretien avec Philippe Oechslin le 1er décembre 2020
+
+
+- Est-ce que la technique est encore utilisée aujourd'hui ? A-t-elle été utilisée ?
+
+	Limite : plusieurs mots de passe ex on a une base avec 100 mots de passe hachés :
+	on cherche les antécédents un par un
+	avec salage : encore plus gênant
+		
+	Utile pour cherche un seul mot de passe : ex la police qui trouve un ordinateur
+
+	Assez limité aujourd'hui avec la puissance des cartes graphiques
+
+- Le mieux entre temps et mémoire
+
+	Pas vraiment de mieux, cherche un compromis
+	Par exemple regarder la limite de RAM de son pc :
+		déterminer la mémoire max à accorder
+		régler t en fonction
+
+- Est-ce toujours performant avec du salage ?
+
+	Salage bien fait : longue suite aléatoire : impossible
+	Si sel fixe et on le connait : on peut envisager de créer une table spéciale
+
+- Comment avez-vous eu l'idée ?
+
+	Souhaitait faire un TP pour ses élèves sur les craquages de mots de passe
+	Est tombé sur l'article de Hellman : très intéressent
+	Pense qu'il est possible de l'améliorer : Points distingués :
+	Collègue lui dit qu'il a 15 ans de retard	
+	Continue d'y réfléchir et pense à cette idée de plusieurs fonctions de réduction par table
+	Peu intuitif mais très efficace.
+
+- Ou aller : allons nous dans la bonne direction ?
+	Étudier fusions entre table arc en ciel et tables classiques
