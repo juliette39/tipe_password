@@ -6,7 +6,7 @@ Projet essentiellement réalisé en python
 ## Déchiffrement de mots de passe : Étude de différentes méthodes.
 *Quelles sont les meilleures méthodes pour déchiffrer un mot de passe ?*
 
-##1. Le hachage
+## Le hachage
 
 *Comment les mots de passe sont protégés : les fonctions de hachage*
 
